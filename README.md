@@ -1,6 +1,6 @@
 # Blog Backend API
 
-Welcome to the Blog Backend API! This project provides a robust backend service for a blogging platform, with features like user authentication, role-based access control, blog management, and admin tools. Whether you're a curious developer or an avid blogger, this project has something to offer.
+Welcome to the Blog Backend API! This project provides a robust backend service for a blogging platform, with features like user authentication, role-based access control, blog management, and admin tools.
 
 ---
 
@@ -11,13 +11,13 @@ Welcome to the Blog Backend API! This project provides a robust backend service 
 - **Blog Management**: Create, read, update, and delete (CRUD) blogs with ease.
 - **Search & Filter Blogs**: Find blogs quickly using search, sorting, and filtering options.
 - **Admin Privileges**: Block users and delete any blog effortlessly.
-- **Security First**: Includes rate limiting, password hashing, and security headers to ensure safe usage.
+- **Security First**: Includes password hashing, and security headers to ensure safe usage.
 
 ---
 
 ## 🌐 Live URL
 
-🚀 Live Link: [Live Url](Add the live link once deployed)<br>
+🚀 Live Link: [Live Url](https://blog-project-server-gules.vercel.app/)<br>
 🚀 Github Link: [Blog Backend Server](https://github.com/abuabddullah/blog-project-server.git)
 
 ---
@@ -31,14 +31,13 @@ This project is built using modern and reliable technologies:
 - **Database**: MongoDB (managed with Mongoose)
 - **Authentication**: JWT (JSON Web Tokens)
 - **Validation**: Zod library
-- **Security Enhancements**: Helmet, Rate Limiting
 - **Other**: CORS support, custom error handling
 
 ---
 
 ## 📋 Prerequisites
 
-Before you begin, ensure you have the following installed:
+Before begining, these following must have to be installed:
 
 1. **Node.js** (version 14 or above)
 2. **MongoDB** (running locally or hosted)
@@ -48,14 +47,14 @@ Before you begin, ensure you have the following installed:
 
 ## 🔧 Installation and Setup
 
-Follow these steps to get the project running on your local machine:
+Follow these steps to get the project running on local machine:
 
 1. **Clone the Repository**  
    Download the code from the GitHub repository:
 
    ```bash
-   git clone <repository-url>
-   cd blog-backend-api
+   git clone https://github.com/abuabddullah/blog-project-server.git
+   cd blog-project-server
    ```
 
 2. **Install Dependencies**  
@@ -75,26 +74,13 @@ Follow these steps to get the project running on your local machine:
    ADMIN_EMAIL=admin@example.com
    ADMIN_PASSWORD=admin123
    MONGODB_URI=mongodb://localhost:27017/blog-app
-   mongodb+srv://asifaowadud:sof6vxfRNfUEvdCg@cluster0.gjcwx8p.mongodb.net/blog-app?retryWrites=true&w=majority&appName=Cluster0
    ```
 
-4. **Build the Project**  
-   TypeScript users need to build the project before running:
+4. **For running in development mode**:
 
    ```bash
-   npm run build
+   npm run dev
    ```
-
-5. **Start the Server**
-
-   - For production:
-     ```bash
-     npm start
-     ```
-   - For development (hot-reloading):
-     ```bash
-     npm run dev
-     ```
 
    The server will run on `http://localhost:5000`.
 
@@ -163,8 +149,6 @@ Follow these steps to get the project running on your local machine:
 
 - **JWT Authentication**: Ensures secure API access.
 - **Password Hashing**: Protects user credentials.
-- **Rate Limiting**: Prevents abuse by limiting requests.
-- **Helmet**: Adds essential HTTP headers for security.
 - **CORS**: Handles cross-origin resource sharing safely.
 
 ---
@@ -197,7 +181,3 @@ You can log in as an admin using the default credentials:
 
 Developed with ❤️ by ASIF A OWADUD  
 Feel free to connect with me for any queries or suggestions!
-
----
-
-This version is natural, user-friendly, and explains the features with a personal touch. Let me know if you'd like to tweak anything further! 🚀
