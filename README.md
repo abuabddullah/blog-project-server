@@ -45,11 +45,12 @@ A robust TypeScript-based blog backend with role-based access control, built usi
 3. Create a `.env` file in the root directory with the following variables:
 
    ```
+   NODE_ENV=development
    PORT=5000
-   MONGODB_URI=mongodb://localhost:27017/blog-app
    JWT_SECRET=your-secure-jwt-secret
    ADMIN_EMAIL=admin@example.com
    ADMIN_PASSWORD=admin123
+   MONGODB_URI=mongodb://localhost:27017/blog-app
    ```
 
 4. Build the project:
