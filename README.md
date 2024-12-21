@@ -51,6 +51,7 @@ A robust TypeScript-based blog backend with role-based access control, built usi
    ADMIN_EMAIL=admin@example.com
    ADMIN_PASSWORD=admin123
    MONGODB_URI=mongodb://localhost:27017/blog-app
+   mongodb+srv://asifaowadud:sof6vxfRNfUEvdCg@cluster0.gjcwx8p.mongodb.net/blog-app?retryWrites=true&w=majority&appName=Cluster0
    ```
 
 4. Build the project:
